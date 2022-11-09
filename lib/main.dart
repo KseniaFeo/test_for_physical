@@ -16,7 +16,6 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.amber,
       ),
-      // home: const AuthWidget(),
       routes: {
           '/auth': (context) => const AuthWidget(),
           '/errors_screen': (context) => const ErrorsScreenWidget(),

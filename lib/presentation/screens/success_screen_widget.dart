@@ -6,7 +6,7 @@ class SuccessScreenWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Congtatulations!')),
+      appBar: AppBar(title: const Text('Congratulations!')),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: const [
